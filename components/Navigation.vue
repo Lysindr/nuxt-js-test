@@ -3,6 +3,8 @@
 		<NuxtLink to="/">Home</NuxtLink>
 		<NuxtLink to="/about-us">About us</NuxtLink>
 		<NuxtLink to="/contact-us">Contact us</NuxtLink>
+
+		<nuxt-link to="/about-us" no-prefetch>About page not prefetched</nuxt-link>
 	</nav>
 </template>
 
